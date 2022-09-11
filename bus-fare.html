@@ -18,13 +18,21 @@
           <span id="bus-fare" class="text-primary fst-italic fw-bold">2.15</span> TK
         </p>
       </section>
-      <section class="mx-3">
-        <div class="card mx-auto bg-dark" style="width: 100%">
+      <section id="calculate-section" class="mx-3">
+        <div class="card mx-auto bg-dark" style="width: 100%;">
           <div class="card-body">
-            <img src="images/publicBus2.png" class="card-img-top mb-2 rounded" alt="..." />
+            <img id="cover-image" src="images/publicBus2.png" class="card-img-top mb-2 rounded" alt="..." />
             <span class="text-white text-center fw-semibold d-block mt-2 mb-2">Kilometers</span>
             <input type="number" name="" id="Kilometers-field" class="w-100" />
             <button id="btn-total" type="button" class="btn btn-primary mt-2 d-block w-100 mx-auto">Total</button>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section id="card-section" class="mx-3 d-none">
+        <div class="card mx-auto" style="width: 100%; height: 100vh;">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <h1 id="card-title" class="card-title fw-bold"></h1>
           </div>
         </div>
       </section>

@@ -9,6 +9,14 @@ document.getElementById("btn-total").addEventListener("click", function () {
     
     const totalFare = Kilometers * busFare;
     const total = totalFare.toFixed(2);
+
+    const calculateSection = document.getElementById('calculate-section');
+    calculateSection.classList.add('d-none');
     
+    const cardSection = document.getElementById('card-section');
+    cardSection.classList.remove('d-none');
+
+    const cardTitle = document.getElementById("card-title");
+    cardTitle.innerText = total;
     
 })
